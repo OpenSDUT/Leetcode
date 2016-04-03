@@ -1,4 +1,4 @@
-# 方法一：我的思路
+# 方法一：使用两个列表
 class Solution(object):
 
     def moveZeroes(self, nums):
