@@ -14,6 +14,11 @@ class Solution(object):
                 num = num//10
             num = sum
         return sum
+
+    def addDigits2(self,num):
+        return (num -1)%9 +1 if num else 0
+
 if __name__ == '__main__':
     test = Solution()
     print(test.addDigits(38))
+    print(test.addDigits2(38))
