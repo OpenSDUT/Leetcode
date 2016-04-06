@@ -4,6 +4,7 @@ class Solution(object):
         :type nums: List[int]
         :type target: int
         :rtype: List[int]
+        使用字典将元素和索引的映射关系保存起来，然后相减再进行查找(字典查找效率高)
         """
         numsDic = {}
         nList = []
