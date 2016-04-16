@@ -18,6 +18,9 @@ class Solution(object):
         	else:
         		return False
     def isPowerOfThree2(self,n):
+    	'''利用log10函数，如果一个数是三的幂，则log以3为底的对数为整数
+    	   如果利用log函数会有精度问题
+    	'''
     	if n<=0:
     		return False
     	logx = math.log10(n)/math.log10(3)
